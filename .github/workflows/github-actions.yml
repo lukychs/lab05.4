@@ -2,7 +2,7 @@ name: Test bank
 run-name: Testing banking files
 on: [push]
 jobs:
-  test: #виталик алкаш
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
